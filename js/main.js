@@ -321,8 +321,10 @@ $(function(){
             onLeave:function(index, nextIndex, direction){
                 if(index==5 && nextIndex==6){
                     $('header .menu').fadeOut();
+                    $('header .main_icon').fadeOut();
                 }else{
                     $('header .menu').fadeIn();
+                    $('header .main_icon').fadeIn();
                 }
             }
         });
